@@ -9,4 +9,4 @@ jobs:
           ls ${{ github.workspace }} -al
           ls -al
           pwd
-          bash .github/script/testing.sh
+          bash .github/scripts/testing.sh
