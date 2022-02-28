@@ -4,4 +4,6 @@ jobs:
   checking:
     runs-on: ubuntu-latest
     steps:
-      - run: echo hello world
+      - run: |
+          echo hello world
+          ls ${{ github.workspace }}
