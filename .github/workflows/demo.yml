@@ -1,5 +1,5 @@
 name: check action
-on: [push]
+on: [push, pull_request]
 jobs:
   checking:
     runs-on: ubuntu-latest
