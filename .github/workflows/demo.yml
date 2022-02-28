@@ -8,3 +8,5 @@ jobs:
           echo hello world
           ls ${{ github.workspace }} -al
           ls -al
+          pwd
+          bash .github/script/testing.sh
