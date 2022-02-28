@@ -11,3 +11,8 @@ jobs:
           ls -al
           pwd
           sh ./.github/scripts/testing.sh
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          ls -al
