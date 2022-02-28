@@ -21,3 +21,5 @@ jobs:
           echo testing
           echo aaa
           echo b
+      - name: env
+        run: printenv
