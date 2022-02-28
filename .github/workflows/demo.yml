@@ -16,5 +16,8 @@ jobs:
     steps:
       - run: |
           ls -al
-      - name: cmd
-        run: echo testing
+      - name: multi-line command
+        run: |
+        echo testing
+        echo aaa
+        echo b
