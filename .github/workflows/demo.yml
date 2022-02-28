@@ -2,6 +2,6 @@ name: check action
 on: [push]
 jobs:
   checking:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - echo hello world
