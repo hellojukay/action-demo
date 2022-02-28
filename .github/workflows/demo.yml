@@ -18,6 +18,6 @@ jobs:
           ls -al
       - name: multi-line command
         run: |
-        echo testing
-        echo aaa
-        echo b
+          echo testing
+          echo aaa
+          echo b
